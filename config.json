@@ -1,0 +1,20 @@
+{
+    "model_params": {
+        "input_size": 784,
+        "hidden_sizes": [512, 256, 128],
+        "output_size": 10,
+        "dropout_rate": 0.2
+    },
+    "training_params": {
+        "learning_rate": 0.001,
+        "batch_size": 64,
+        "epochs": 20,
+        "device": "cuda",
+        "model_save_path": "checkpoints/model.pth"
+    },
+    "data_params": {
+        "train_split": 0.8,
+        "random_seed": 42,
+        "shuffle": true
+    }
+}
